@@ -1,5 +1,6 @@
 import './App.css'
 import Navbar from "./components/Navbar.tsx";
+import Pages from "./components/Pages.tsx";
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <div>
       <Navbar/>
       <div>
+        <Pages/>
       </div>
     </div>
   )
